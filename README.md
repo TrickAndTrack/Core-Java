@@ -94,11 +94,24 @@ The first reason is that the Object-oriented programming language should only ha
 ### Object
 we need an object for method calls
 
-1.Real-timeentity 
+1. Real-timeentity 
 2. behavior 
 3. identity
 4. state
 
+
+## 10) primitive data types &  Wrapper class
+
+| Non-Primitive type | Center-aligned | Right-aligned |
+| 	:---:         |     :---:      |    :---: |
+| Class   | boolean     | Boolean    |
+| Object     | byte       | Byte      |
+| Array   | char     | Character    |
+| String     | float       | Float     |
+| Interface   | int     | Integer    |
+|     | long       |Long     |
+|    | short   | Short    |
+|      |double       | Double      |
 
 
 

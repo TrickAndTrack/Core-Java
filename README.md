@@ -21,12 +21,8 @@ Java is platform-independent.
 JRE refers to a runtime environment in which JAVA bytecode can be executed.
 it's an implementation of the JVM which physically exists.
 
-<picture>
-  <source media="(prefers-color-scheme: light)" srcset="https://user-images.githubusercontent.com/73180409/226957816-1b4fa937-0cf0-4c1a-a395-cd83f7d431c9.png">
-  
-</picture>
 
-![jdk-jvm]()
+![jdk-jvm](https://user-images.githubusercontent.com/73180409/226957816-1b4fa937-0cf0-4c1a-a395-cd83f7d431c9.png)
 
 ## 3) JDK
 JDK stands for Java Development Kit or sometimes it is also referred to as Java Standard Edition Development Kit. 
@@ -35,18 +31,23 @@ JDK is a development environment to develop a wide range of applications such as
 
 ## 4) Features of Java or Java buzzwords
 
-simple
-Object-oriented	
-portable	
-independent	secured	
-robust	
-Architectural natural	
-dynamic
-High Performance	
-Multithreaded	
-Distributed
+| Rank | Features      |
+|-----:|---------------|
+|     1|  simple       |
+|     2|Object-oriented|
+|     3|portable       |
+|     4|  independent       |
+|     5|secured|
+|     6|robust       |
+|     7|  simple       |
+|     8|Architectural natural|
+|     9|dynamic       |
+|     10|High Performance|
+|     11|Multithreaded	       |
+|     12|  Distributed       |
 
-What happens at runtime? 
+
+- What happens at runtime? 
 Class file -> class Loader->byte code verified -> Interpreter -> Runtime -> hardware.
 
 Class loader: It is the subsystem of JVM that is used to load class files.

@@ -51,25 +51,36 @@ Interpreter: Read bytecode Stream then execute the instructions.
 
 ## 6) Public static void main(String[] args)
 
-public:  the keyword is an access modifier that represents visibility. It means it is visible to all class.
+### public:  
+the keyword is an access modifier that represents visibility. It means it is visible to all class.
 
-static: is a keyword. The main () method is executed by the JVM, so it doesn't require creating an object to invoke the main () method. So, it saves memory.
+### static: 
+is a keyword. The main () method is executed by the JVM, so it doesn't require creating an object to invoke the main () method. So, it saves memory.
 We must declare the main() function static as no class object is present when the java runtime starts.
 
-void: is the return type of the method. It means it doesn't return any value.
+### void: 
+is the return type of the method. It means it doesn't return any value.
 
-MAIN: is the name of a method. And the starting point of the program.
+### MAIN: 
+is the name of a method. And the starting point of the program.
 
 String [] args ---> command line args. meaning is  Array of String type.
 
 ## 7) System.out.println():
+
 	System: class
 	out:the object of Print Stream class--printing purpose.
 	println: method of Print Stream class.
 
-##8) Java provides three types of control flow statements.
-Decision-Making statements: a)if statements b) switch statement
+## 8) Java provides three types of control flow statements.
+### Decision-Making statements: 
+a)if statements b) switch statement
 
-Loop statements a) Do-while loop b) while loop c) for loop d) for-each loop.
+### Loop statements:
+a) Do-while loop b) while loop c) for loop d) for-each loop.
+
+### Jump statements
+  a) break statement b) continue statement
+
 
 

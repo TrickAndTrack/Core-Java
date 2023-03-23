@@ -94,7 +94,7 @@ The first reason is that the Object-oriented programming language should only ha
 ### Object
 we need an object for method calls
 
-1. Real-timeentity 
+1. Real-time entity 
 2. behavior 
 3. identity
 4. state
@@ -102,7 +102,7 @@ we need an object for method calls
 
 ## 10) primitive data types &  Wrapper class
 
-| Non-Primitive type | Center-aligned | Right-aligned |
+| Non-Primitive type | primitive data types | Wrapper class |
 | 	:---:         |     :---:      |    :---: |
 | Class   | boolean     | Boolean    |
 | Object     | byte       | Byte      |
@@ -113,6 +113,142 @@ we need an object for method calls
 |    | short   | Short    |
 |      |double       | Double      |
 
++ Non-primitive data types:
+These data types are not predefined in Java. They are created by programmers.
 
++ primitive data types:
+Primitive types are predefined (already defined) in Java
+
++ Wrapper class:
+The wrapper class in Java provides the mechanism to convert primitive into the object and object into primitive. 
+
+## 11) Autoboxing and Unboxing
+ 	The automatic conversion of primitive into an object is known as autoboxing.
+	The automatic conversion of wrapper type into its corresponding primitive type is known as unboxing.
+## Example 1 
+
+	
+```java
+
+public class Example{  
+public static void main(String args[]){  
+
+byte b=1;  
+short s=2;  
+int i=3;  
+long l=4;  
+float f=5.0F;  
+double d=6.0D;  
+char c='a';  
+boolean b2= true;  
+  
+// Autoboxing: Converting primitives into objects  
+Byte byteobj=b;  
+Short shortobj=s;  
+Integer intobj=i;  
+Long longobj=l;  
+Float floatobj=f;  
+Double doubleobj=d;  
+Character charobj=c;  
+Boolean boolobj=b2;  
+  
+System.out.println("Byte object is: "+byteobj);  
+System.out.println("Short object is: "+shortobj);  
+System.out.println("Integer object is: "+intobj);  
+System.out.println("Long object is: "+longobj);  
+System.out.println("Float object is: "+floatobj);  
+System.out.println("Double object is: "+doubleobj);  
+System.out.println("Character object is: "+charobj);  
+System.out.println("Boolean object is: "+boolobj);  
+  
+// Unboxing: Converting Objects to Primitives  
+byte bytevalue=byteobj;  
+short shortvalue=shortobj;  
+int intvalue=intobj;  
+long longvalue=longobj;  
+float floatvalue=floatobj;  
+double doublevalue=doubleobj;  
+char charvalue=charobj;  
+boolean boolvalue=boolobj;  
+  
+System.out.println("byte value: "+bytevalue);  
+System.out.println("short value: "+shortvalue);  
+System.out.println("int value: "+intvalue);  
+System.out.println("long value: "+longvalue);  
+System.out.println("float value: "+floatvalue);  
+System.out.println("double value: "+doublevalue);  
+System.out.println("char value: "+charvalue);  
+System.out.println("boolean value: "+boolvalue);  
+	}
+}  
+```
+
+## Example 2
+
+```java
+public class ExampleTwo {
+public static void main(String[] args)    {
+ 
+        // Creating an Integer Object with custom value is 1
+        Integer i = new Integer(1);
+ 
+        // Unboxing the Object
+        int j = i;
+ 
+        // Print statements
+        System.out.println("Value of i is:" + i);
+        System.out.println("Value of j is: " + i1);
+ 
+        // Autoboxing of character
+        Character ch = 'a';
+ 
+        // Auto-unboxing of Character
+        char cha = ch;
+ 
+        System.out.println("Value of ch is: " + ch);
+        System.out.println(" Value of cha is: " + cha);
+    }
+}
+```
+
+## Example 3
+```java
+public class ExampleThree {
+ public static void main(String[] args)  {
+        List<Integer> alist = new ArrayList<Integer>();
+ 
+        // Adding the int primitives type values
+        // Autoboxing
+        alist.add(1);
+        alist.add(2);
+        alist.add(5);
+	
+        System.out.println(" Printing the ArrayList: " + al);
+    }
+
+```
+## Example 4
+
+```java
+public class ExampleThree {
+ public static void main(String[] args)  {
+       
+        List<Integer> list = new ArrayList<Integer>();
+ 
+        // Adding the int primitives type values by  converting them into Integer wrapper object
+        for (int i = 0; i < 10; i++)
+ 
+            System.out.println(list.add(Integer.valueOf(i)));
+		
+	List<Integer> listsecond = new ArrayList<Integer>();	
+        for (int i = 0; i < 10; i++)
+            listsecond.add(i);
+ 
+         int sumOdd = sumOfOddNumber(list);
+ 
+        System.out.println("Sum of odd numbers = "+ sumOdd);	
+    }
+
+```
 
 Visit https://github.com	

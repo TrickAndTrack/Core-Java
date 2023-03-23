@@ -21,7 +21,12 @@ Java is platform-independent.
 JRE refers to a runtime environment in which JAVA bytecode can be executed.
 it's an implementation of the JVM which physically exists.
 
-![jdk-jvm](https://user-images.githubusercontent.com/73180409/226957816-1b4fa937-0cf0-4c1a-a395-cd83f7d431c9.png)
+<picture>
+  <source media="(prefers-color-scheme: light)" srcset="https://user-images.githubusercontent.com/73180409/226957816-1b4fa937-0cf0-4c1a-a395-cd83f7d431c9.png">
+  
+</picture>
+
+![jdk-jvm]()
 
 ## 3) JDK
 JDK stands for Java Development Kit or sometimes it is also referred to as Java Standard Edition Development Kit. 
@@ -80,7 +85,7 @@ a)if statements b) switch statement
 a) Do-while loop b) while loop c) for loop d) for-each loop.
 
 ### Jump statements
-  a) break statement b) continue statement
+a) break statement b) continue statement
 
 
 

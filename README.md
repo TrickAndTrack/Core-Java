@@ -1,7 +1,7 @@
 # Core-Java
 
 
-1) JVM
+## 1) JVM
 
 JVM is an abstract machine. Read-only .class file. 
 The JVM has two primary functions: the "write once, run anywhere" principle, and to manage and optimizing program memory. 
@@ -15,7 +15,7 @@ always find the main method  -> if not found then throws an exception  ->	no mai
 a) java is Interpreted? -> yes.
 
 
-2) JRE	
+## 2) JRE	
 JVM, JRE, and JDK are platform-dependent. 
 Java is platform-independent.
 JRE refers to a runtime environment in which JAVA bytecode can be executed.
@@ -23,12 +23,12 @@ it's an implementation of the JVM which physically exists.
 
 ![jdk-jvm](https://user-images.githubusercontent.com/73180409/226957816-1b4fa937-0cf0-4c1a-a395-cd83f7d431c9.png)
 
-3) JDK
+## 3) JDK
 JDK stands for Java Development Kit or sometimes it is also referred to as Java Standard Edition Development Kit. 
 It is the tool necessary to compile and package Java programs.
 JDK is a development environment to develop a wide range of applications such as desktop applications, web applications 
 
-4) Features of Java or Java buzzwords
+## 4) Features of Java or Java buzzwords
 
 simple
 Object-oriented	
@@ -49,7 +49,7 @@ Bytecode Verifier: Checks the code fragments for illegal code.
 Interpreter: Read bytecode Stream then execute the instructions.
 
 
-6) Public static void main(String[] args)
+## 6) Public static void main(String[] args)
 
 public:  the keyword is an access modifier that represents visibility. It means it is visible to all class.
 
@@ -62,10 +62,14 @@ MAIN: is the name of a method. And the starting point of the program.
 
 String [] args ---> command line args. meaning is  Array of String type.
 
-7) System.out.println():
+## 7) System.out.println():
 	System: class
 	out:the object of Print Stream class--printing purpose.
 	println: method of Print Stream class.
 
+##8) Java provides three types of control flow statements.
+Decision-Making statements: a)if statements b) switch statement
+
+Loop statements a) Do-while loop b) while loop c) for loop d) for-each loop.
 
 

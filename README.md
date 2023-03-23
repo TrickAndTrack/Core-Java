@@ -88,5 +88,18 @@ a) Do-while loop b) while loop c) for loop d) for-each loop.
 ### Jump statements
 a) break statement b) continue statement
 
+## 9)Java is not pure Object-Oriented:
+The first reason is that the Object-oriented programming language should only have objects whereas java contains 8 primitive data types like char, boolean, byte, short, int, long, float, double which are not objects. These primitive data types can be used without the use of any object.
+
+### Object
+we need an object for method calls
+
+1.Real-timeentity 
+2. behavior 
+3. identity
+4. state
 
 
+
+
+Visit https://github.com	

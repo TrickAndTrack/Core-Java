@@ -16,11 +16,11 @@ a) java is Interpreted? -> yes.
 
 
 ## 2) JRE	
-JVM, JRE, and JDK are platform-dependent. 
-Java is platform-independent.
+
 JRE refers to a runtime environment in which JAVA bytecode can be executed.
 it's an implementation of the JVM which physically exists.
-
+JVM, JRE, and JDK are platform-dependent. 
+Java is platform-independent.
 
 ![jdk-jvm](https://user-images.githubusercontent.com/73180409/226957816-1b4fa937-0cf0-4c1a-a395-cd83f7d431c9.png)
 

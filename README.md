@@ -253,7 +253,7 @@ public class ExampleThree {
 
 ```
 
-# typecasting 
+# 12) typecasting 
 Typecasting refers to the process of converting a value from one data type to another in programming languages. 
 There are two types of typecasting: implicit and explicit. Implicit typecasting occurs automatically when one data type is converted to another without the need for explicit instructions from the programmer. Explicit typecasting, on the other hand, requires the programmer to explicitly convert one data type to another using special functions or syntax.
 
@@ -280,9 +280,13 @@ System.out.println(b);   // Output: "15"
 3) keyword used for memory allocation.
 4) and directly call without any object.
 
-`static` variables`: A static variable is shared by all instances of the class. It is created when the class is loaded into memory and exists until the program exits. static variables are often used to store constants or values that are common to all instances of the class.
+`static variables`: A static variable is shared by all instances of the class. It is created when the class is loaded into memory and exists until the program exits. static variables are often used to store constants or values that are common to all instances of the class.
 
-`static methods`: A static method is a method that belongs to the class itself rather than to an instance of the class. It can be called without creating an object of the class. static methods are often used for utility methods or methods that operate on static variables.
+`Non-static variables` :we cannot access in static block.(Instance variables)
+
+`static methods`: A static method is a method that belongs to the class itself rather than to an instance of the class. It can be called without creating an object of the class. static methods are often used for utility methods or methods that operate on static variables. a static method can access static data members and can change their value of it.
+
+`non-static method`: belong to object & memory allocated at the time of runtime. 
 
 `static blocks`: A static block is a block of code that is executed when the class is loaded into memory. It can be used to initialize static variables or to perform any other actions that need to be done when the class is loaded.
 
@@ -299,5 +303,7 @@ public class MyClass {
     }
 }
 ```
+
+
 
 Visit https://github.com	

@@ -3,16 +3,16 @@
 
 ## 1) JVM
 
-JVM is an abstract machine. Read-only .class file. 
+JVM is an abstract machine. Read-only .class file. means Byte code.
 The JVM has two primary functions: the "write once, run anywhere" principle, and to manage and optimizing program memory. 
-JVM is platform-dependent.  
+JVM is platform-dependent. so example is you can not run jvm on IOS so JVM need to be build for a perticular OS.
 {Class loader: It is the subsystem of JVM that is used to load class files.}
 JVM Fallow three notations specification, implementation, and instance.
-   JVM:
-Load’s code -> Verifies code -> Executes code -> Provides runtime environment.
-always find the main method  -> if not found then throws an exception  ->	no main method found
+JVM: Load’s code -> Verifies code -> Executes code -> Provides runtime environment.
+always find the main method  -> if not found then throws an exception  ->	no main method found.
 
 a) java is Interpreted? -> yes.
+![image](https://github.com/TrickAndTrack/Core-Java/assets/73180409/2c62f7ee-788d-4d42-95d1-90a2c1c3e770)
 
 
 ## 2) JRE	
@@ -33,22 +33,22 @@ JDK is a development environment to develop a wide range of applications such as
 
 | Rank | Features      |
 |-----:|---------------|
-|     1|  simple       |
+|     1|simple         |
 |     2|Object-oriented|
 |     3|portable       |
-|     4|  independent       |
-|     5|secured|
-|     6|robust       |
-|     7|  simple       |
+|     4|independent    |
+|     5|secured        |
+|     6|robust         |
+|     7|simple         |
 |     8|Architectural natural|
-|     9|dynamic       |
-|     10|High Performance|
-|     11|Multithreaded	       |
-|     12|  Distributed       |
+|     9|dynamic        |
+|    10|High Performance|
+|    11|Multithreaded  |
+|    12|Distributed    |
 
 
 - What happens at runtime? 
-Class file -> class Loader->byte code verified -> Interpreter -> Runtime -> hardware.
+Class file -> class Loader-> byte code verified -> Interpreter -> Runtime -> hardware.
 
 Class loader: It is the subsystem of JVM that is used to load class files.
 Bytecode Verifier: Checks the code fragments for illegal code.
@@ -125,8 +125,8 @@ Primitive types are predefined (already defined) in Java
 The wrapper class in Java provides the mechanism to convert primitive into the object and object into primitive. 
 
 ## 11) Autoboxing and Unboxing
- 	The automatic conversion of primitive into an object is known as autoboxing.
-	The automatic conversion of wrapper type into its corresponding primitive type is known as unboxing.
+The automatic conversion of primitive into an object is known as autoboxing.
+The automatic conversion of wrapper type into its corresponding primitive type is known as unboxing.
 ## Example 1 
 
 	
@@ -184,6 +184,8 @@ System.out.println("boolean value: "+boolvalue);
 	}
 }  
 ```
+## &- AND , |-OR , !-NOT
+![image](https://github.com/TrickAndTrack/Core-Java/assets/73180409/dc55b4ce-3f28-4938-9e55-b082aa8874a9)
 
 ## Example 2
 

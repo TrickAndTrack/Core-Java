@@ -305,7 +305,14 @@ public class MyClass {
     }
 }
 ```
+	
 
+# Comparator Vs Comparable
+* The Comparable interface is a good choice to use for defining the default ordering or In other words, if its the main way of comparing objects.
+## So why use a comparator if we already have a Comparable? ##
+* Sometimes we can modify the source code of the class whose object we want to sort thus making the use of Comparable impossible.
+* Using Comparators allows us to avoid adding additional code to our domain classes.
 
-
-Visit https://github.com	
+* We can define multiple different comparison strategies, which isn't possible when using Comparable
+*  if the class has a natural ordering, you can implement Comparable. If you need multiple ways to compare objects or if you don't have control over the class you want to compare, you should use Comparator. The choice depends on your specific requirements.
+Visit https://github.com

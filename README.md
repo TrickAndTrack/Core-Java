@@ -315,4 +315,27 @@ public class MyClass {
 
 * We can define multiple different comparison strategies, which isn't possible when using Comparable
 *  if the class has a natural ordering, you can implement Comparable. If you need multiple ways to compare objects or if you don't have control over the class you want to compare, you should use Comparator. The choice depends on your specific requirements.
+
+# Difference between Hashset linkedHashset sorted set treeset
+
+|Number| Features      |   HashSet  |LinkedHashSet|SortedSet|TreeSet|
+|-----:|---------------|---------------|---------------|---------------|---------------|
+|     1|Unordered/Ordered |does not guarantee any specific order of elements. It uses hashing techniques to store elements.|maintains the order of elements based on the order they were inserted.|SortedSet is an interface that extends Set and guarantees elements are sorted in some order.|TreeSet implements SortedSet and stores elements in a sorted order (natural order or according to a specified comparator during construction).|
+|     2|Performance    |Offers constant-time performance for basic operations (add, remove, contains).| Slower than HashSet due to maintaining the insertion order.|Depends on the specific implementation.|Logarithmic time cost for basic operations.|
+|     3|Duplicates     |Does not allow duplicate elements. It uses the equals() method to check for duplicates.|Does not allow duplicate elements.|Does not allow duplicate elements.|Does not allow duplicate elements.|
+|     4|Null Elements  |Allows a single null element.|Allows a single null element.|Depending on the implementation, some sorted sets allow a single null element.|Does not allow null elements (unless a custom comparator is provided that allows nulls)|
+|     5|Implementation |Implemented using a hash table.|Implemented as a hash table with a linked list running through it, so elements are ordered.|Specific implementations (like TreeSet) maintain elements in sorted order.|Internally implemented as a self-balancing red-black tree.|
+|     6| Use           |when you need an unordered collection with constant-time performance for basic operations.| when you need to maintain the insertion order of elements.|when you need a sorted collection without duplicates.| when you need a sorted collection without duplicates and efficient sorted operations.|
+
+
+
+
+
+
+
+
+
+
+
+
 Visit https://github.com
